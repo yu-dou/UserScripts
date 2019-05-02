@@ -24,6 +24,7 @@
       var v = document.querySelector("video");
       event.preventDefault();
       switch (evt.keyCode) {
+        case 90:
         case 37: {
           //left
           if (v.currentTime < skipTime) {
@@ -34,6 +35,7 @@
           v.currentTime = v.currentTime - skipTime;
           break;
         }
+        case 88:
         case 39: {
           //right
           if (v.currentTime > v.duration - skipTime) {
@@ -44,6 +46,7 @@
           v.currentTime = v.currentTime + skipTime;
           break;
         }
+        case 68:
         case 38: {
           //up
           if (v.volume > 1 - skipVolume) {
@@ -55,7 +58,7 @@
           v.volume = v.volume + 0.1;
           break;
         }
-        
+        case 83:
         case 40: {
           //down
           if (v.volume < skipVolume) {
