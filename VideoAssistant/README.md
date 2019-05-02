@@ -8,9 +8,9 @@
 
 - <kbd>F</kbd> 键开启全屏与退出全屏   
 
-- <kbd>LEFT</kbd> / <kbd>Z </kbd> <键快退 10s   
+- <kbd>LEFT</kbd> / <kbd>Z </kbd> 键快退 10s   
 
-- <kbd>RIGHT</kbd> / <kbd>X</kbd>键快进 10s   
+- <kbd>RIGHT</kbd> / <kbd>X</kbd> 键快进 10s   
 
 - <kbd>UP</kbd> / <kbd>D</kbd> 键使音量放大 10%   
 
